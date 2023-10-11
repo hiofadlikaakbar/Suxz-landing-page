@@ -1,5 +1,5 @@
 <template>
-  <header class="pb-32">
+  <header class="pb-32" data-aos="fade-right">
     <nav
       :class="{
         'bg-[#f7f7ff]/50 backdrop-blur-md': isScrolled,

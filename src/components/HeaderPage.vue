@@ -2,7 +2,11 @@
   <div class="container mx-auto pb-10 px-5 xs:px-3 md:px-6 lg:px-0">
     <div class="flex flex-col md:flex-row items-center justify-center">
       <!-- img -->
-      <div class="mb-10 lg:mb-0 md:w-1/2 md:order-2">
+      <div
+        data-aos="fade-left"
+        data-aos-delay="200"
+        class="mb-10 lg:mb-0 md:w-1/2 md:order-2"
+      >
         <img
           :src="heroImages[0].src"
           :alt="heroImages[0].alt"
@@ -15,7 +19,11 @@
         />
       </div>
       <!-- text -->
-      <div class="md:w-1/2 lg:w-[43%] xl:w-[42%] md:order-1">
+      <div
+        class="md:w-1/2 lg:w-[43%] xl:w-[42%] md:order-1"
+        data-aos="fade-right"
+        data-aos-delay="100"
+      >
         <h5
           class="uppercase text-sm mb-2 tracking-widest font-bold 2xl:text-xl md:text-base lg:text-lg text-secondaryPurple"
         >
