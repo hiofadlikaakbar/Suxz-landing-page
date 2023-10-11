@@ -3,7 +3,12 @@
     <div
       class="flex gap-10 flex-col lg:flex-row justify-between px-5 xl:px-10 items-start"
     >
-      <div class="lg:w-1/3 lg:-mt-2">
+      <div
+        class="lg:w-1/3 lg:-mt-2"
+        data-aos="fade-right"
+        data-aos-delay="200"
+        data-aos-offset="850"
+      >
         <img :src="logo" alt="suxz" class="mb-7 xl:scale-110" />
         <p class="text-base font-semibold md:text-lg xl:text-xl text-heroSlate">
           For more information about our online course platform, you will
@@ -13,7 +18,12 @@
       <div
         class="flex-col flex lg:w-1/2 justify-center gap-10 lg:gap-28 lg:flex-row"
       >
-        <ul class="flex-col flex gap-5 mb-5 md:mb-0">
+        <ul
+          class="flex-col flex gap-5 mb-5 md:mb-0"
+          data-aos="fade-right"
+          data-aos-delay="400"
+          data-aos-offset="850"
+        >
           <li class="text-xl md:text-2xl text-heroSlate font-bold xl:text-3xl">
             Company
           </li>
@@ -46,7 +56,12 @@
             >
           </li>
         </ul>
-        <ul class="flex-col flex gap-5 mb-5 md:mb-0">
+        <ul
+          class="flex-col flex gap-5 mb-5 md:mb-0"
+          data-aos="fade-right"
+          data-aos-delay="600"
+          data-aos-offset="850"
+        >
           <li class="text-xl text-heroSlate font-bold md:text-2xl xl:text-3xl">
             Links
           </li>
@@ -80,7 +95,12 @@
           </li>
         </ul>
       </div>
-      <div class="lg:w-1/3">
+      <div
+        class="lg:w-1/3"
+        data-aos="fade-right"
+        data-aos-delay="800"
+        data-aos-offset="850"
+      >
         <ul class="flex-col flex gap-5">
           <li class="text-xl md:text-2xl xl:text-3xl text-heroSlate font-bold">
             Contact

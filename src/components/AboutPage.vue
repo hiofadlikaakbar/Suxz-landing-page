@@ -1,14 +1,18 @@
 <template>
   <div class="container mx-auto pt-24 pb-20 2xl:pb-10 px-5 lg:px-12">
     <div class="flex-col lg:flex-row lg:flex items-start justify-between">
-      <div class="lg:w-1/2">
+      <div class="lg:w-1/2" data-aos="zoom-in-right" data-aos-offset="670">
         <img
           :src="aboutImage[0].src"
           :alt="aboutImage[0].alt"
           class="mx-auto lg:mx-0"
         />
       </div>
-      <div class="lg:w-[44%] 2xl:w-1/2">
+      <div
+        class="lg:w-[44%] 2xl:w-1/2"
+        data-aos="zoom-in-left"
+        data-aos-offset="670 "
+      >
         <h5
           class="uppercase text-sm mb-2 tracking-widest font-bold 2xl:text-xl md:text-base lg:text-lg text-secondaryPurple"
         >

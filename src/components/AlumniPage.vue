@@ -2,16 +2,25 @@
   <div class="container mx-auto py-16 px-5 xl:px-10">
     <div class="text-center mb-20">
       <h5
+        data-aos="fade-up"
+        data-aos-offset="770"
+        data-aos-delay="200"
         class="uppercase text-sm mb-2 tracking-widest font-bold 2xl:text-xl md:text-base lg:text-lg text-secondaryPurple"
       >
         TESTIMONIAL
       </h5>
       <h2
+        data-aos="fade-up"
+        data-aos-offset="770"
+        data-aos-delay="400"
         class="text-2xl md:text-3xl lg:text-4xl 2xl:text-5xl mb-6 text-heroSlate font-extrabold"
       >
         OUR ALUMNI SAY
       </h2>
       <p
+        data-aos="fade-up"
+        data-aos-offset="770"
+        data-aos-delay="600"
         class="text-heroSlate md:text-lg lg:text-xl 2xl:text-2xl text-base font-semibold mb-9"
       >
         These are the words of people who have taken our class
@@ -23,6 +32,9 @@
       <div
         v-for="(testimony, index) in testimonies"
         :key="index"
+        data-aos="zoom-in"
+        :data-aos-delay="testimony.aosDelay"
+        data-aos-offset="770"
         class="border relative py-12 px-8 border-secondaryPurple rounded-lg"
       >
         <img
@@ -64,6 +76,7 @@ const testimonies = [
     name: props.testimoni[0].name,
     job: props.testimoni[0].job,
     text: props.testimoni[0].text,
+    aosDelay: 400,
   },
   {
     src: props.testimoni[1].src,
@@ -71,6 +84,7 @@ const testimonies = [
     name: props.testimoni[1].name,
     job: props.testimoni[1].job,
     text: props.testimoni[1].text,
+    aosDelay: 800,
   },
   {
     src: props.testimoni[2].src,
@@ -78,6 +92,7 @@ const testimonies = [
     name: props.testimoni[2].name,
     job: props.testimoni[2].job,
     text: props.testimoni[2].text,
+    aosDelay: 1200,
   },
   {
     src: props.testimoni[3].src,
@@ -85,6 +100,7 @@ const testimonies = [
     name: props.testimoni[3].name,
     job: props.testimoni[3].job,
     text: props.testimoni[3].text,
+    aosDelay: 1600,
   },
 ];
 </script>
